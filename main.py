@@ -1,6 +1,6 @@
 import os
 from flask import Flask, request
-import bardapi
+import .env
 from dotenv import load_dotenv
 
 load_dotenv()
