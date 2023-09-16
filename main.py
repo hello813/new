@@ -7,7 +7,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-token = os.getenv("BARD_PROXY_API_KEY", "Not config")
+token = os.getenv("bAieq72K0P5g8aFzQCWKxRESFeLHWnt5P3sXYQjsmF1IsZRUweqKZyWd8NCuHy0QxlRutQ.", "Not config")
 
 
 @app.route("/api/bard/v1/chat/completions", methods=["POST"])
